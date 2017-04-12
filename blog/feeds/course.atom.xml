@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423125上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-03-30T00:00:00+08:00</updated><entry><title>20170330第六週</title><link href="./wcm5.html" rel="alternate"></link><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-03-30:./wcm5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;利用onshape完成四連桿和八連桿的繪製和組裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423125上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2017-04-06T00:00:00+08:00</updated><entry><title>20170406第七周</title><link href="./wcm6.html" rel="alternate"></link><published>2017-04-06T00:00:00+08:00</published><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-06:./wcm6.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;四連桿轉入v-rep模擬&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;p&gt;將連桿分開&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/5EYzYVW"&gt;&lt;img src="http://i.imgur.com/5EYzYVW.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;插入旋轉軸&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/hjzMBbH"&gt;&lt;img src="http://i.imgur.com/hjzMBbH.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;設定連桿為可連動&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/7iEdneK"&gt;&lt;img src="http://i.imgur.com/7iEdneK.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;設定馬達參數&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/9JvCi0h"&gt;&lt;img src="http://i.imgur.com/9JvCi0h.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;完成&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/BhoQa53"&gt;&lt;img src="http://i.imgur.com/BhoQa53.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;影片&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BTWLxepEwJU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;心得&lt;/p&gt;
+&lt;p&gt;透過 VREP可以把連桿插入馬達,可以實際上看它轉動的樣子以及運動軌跡,可以節省許多時間及修正錯誤的成本.....等!!!&lt;/p&gt;</summary><category term="w7"></category></entry><entry><title>20170330第六週</title><link href="./wcm5.html" rel="alternate"></link><published>2017-03-30T00:00:00+08:00</published><updated>2017-03-30T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-03-30:./wcm5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;利用onshape完成四連桿和八連桿的繪製和組裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;四連桿-1&lt;/p&gt;
