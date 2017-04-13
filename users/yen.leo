@@ -33,8 +33,26 @@
 <v t="yen.20170108171733.11" a="E"><vh>body</vh>
 <v t="yen.20170108171733.12" a="E"><vh>reveal div</vh>
 <v t="yen.20170108171733.13" a="E"><vh>slides div</vh>
-<v t="yen.20170108171733.14" a="E"><vh>封面投影片</vh>
+<v t="yen.20170108171733.14"><vh>封面投影片</vh>
 <v t="yen.20170108171733.15"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170413232043.1"><vh>2017.03.02</vh>
+<v t="leo.20170413232043.2"><vh>w2</vh></v>
+</v>
+<v t="leo.20170413232637.1"><vh>2017.03.09</vh>
+<v t="leo.20170413232637.2"><vh>w3</vh></v>
+</v>
+<v t="leo.20170413233005.1"><vh>2017.03.16</vh>
+<v t="leo.20170413233005.2"><vh>w4</vh></v>
+</v>
+<v t="leo.20170413233238.1"><vh>2017.03.23</vh>
+<v t="leo.20170413233238.2"><vh>w5</vh></v>
+</v>
+<v t="leo.20170413233837.1"><vh>2017.03.30</vh>
+<v t="leo.20170413233837.2"><vh>w6</vh></v>
+</v>
+<v t="leo.20170413234757.1" a="E"><vh>2017.04.06</vh>
+<v t="leo.20170413234757.2"><vh>w7</vh></v>
 </v>
 </v>
 </v>
@@ -58,6 +76,537 @@
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170413232043.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170413232043.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others 
+###2017.03.02
+
+####利用solvespace完成四連桿的繪製
+
+&lt;img src="http://i.imgur.com/6WGdjMG.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/8AJfCnH.png" width="50%" height="50%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/bOmJdGa.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/XALwKmd.png.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/KoW3K5UNTvA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170413232637.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170413232637.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others 
+###2017.03.09
+
+####翻譯影片.用onshape組立連桿
+
+&lt;img src="http://i.imgur.com/GE169hV.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2r5OHm7_FGc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/209207407" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+繪製onshape連桿
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/T_MHYm4FfU0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+組立連桿
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2q2ADig3Hik" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+連桿轉入 V-REP
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-82XoTn14ds" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170413233005.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170413233005.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others 
+###2017.03.16
+
+####用solvespace繪畫one_link
+
+&lt;img src="http://i.imgur.com/D9TAsZw.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+0ne_link_01
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BsuFWp9YzJM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+one_link_02
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gtuJqZ5WC3w" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+one_link_03
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/wgYt0JK1qjQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+one_link_vrep
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-82XoTn14ds" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+						
+</t>
+<t tx="leo.20170413233238.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170413233238.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others 
+###2017.03.23
+
+####利用v-rep設定單連桿運動
+
+&lt;img src="http://i.imgur.com/oC3UNgA.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/GF6skRj.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/3lcqdyr.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/GULbM5T.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yUsDnZVw9Sw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+						
+</t>
+<t tx="leo.20170413233837.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170413233837.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others 
+###2017.03.30
+
+####利用onshape完成四連桿和八連桿的繪製和組裝
+
+&lt;img src="http://i.imgur.com/gd0o0BZ.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/lJoBzOA.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/ObUThC2.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/slOT1gF.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/oYO6dBO.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/pLa1fEO.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/zDyTUob.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/QTsRtxN.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ilh1l0Ijaoc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yXwfgjNO4Qo" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VENEjdgy7n8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/IynA6I36hVc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DQEnQx1noCs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+
+
+
+
+
+						
+</t>
+<t tx="leo.20170413234757.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170413234757.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others 
+###2017.04.06
+
+####四連桿轉入v-rep模擬
+
+&lt;img src="http://i.imgur.com/5EYzYVW.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/BhoQa53.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/7iEdneK.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/hjzMBbH.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+&lt;img src="http://i.imgur.com/9JvCi0h.png" width="80%" height="80%"&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+影片
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BTWLxepEwJU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+
+心得
+
+透過 VREP可以把連桿插入馬達,可以實際上看它轉動的樣子以及運動軌跡,可以節省許多時間及修正錯誤的成本.....等!!!
+
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+						
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
