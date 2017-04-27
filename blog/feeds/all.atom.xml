@@ -4,28 +4,34 @@
 
 &lt;p&gt;&lt;a href="http://imgur.com/0TYamHO"&gt;&lt;img src="http://i.imgur.com/0TYamHO.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/IaDSIO8"&gt;&lt;img src="http://i.imgur.com/IaDSIO8.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;定義: add這個檔為a和b兩個變數&lt;/p&gt;
+&lt;p&gt;add.py
+&lt;pre class="brush:python"&gt;
+ 定義: add這個檔為a和b兩個變數&lt;/p&gt;
 &lt;p&gt;輸出公式為 a+b&lt;/p&gt;
 &lt;p&gt;導入sys&lt;/p&gt;
 &lt;p&gt;指出資料夾路徑&lt;/p&gt;
 &lt;p&gt;輸出add.pty這個檔&lt;/p&gt;
 &lt;p&gt;把輸出之名命名為sum=add.add(1,2)    &lt;/p&gt;
 &lt;p&gt;第一個為add.py檔名,第二個為add名稱&lt;/p&gt;
-&lt;p&gt;輸出之公式ab為1和2&lt;/p&gt;
+&lt;p&gt;輸出之公式ab為1和2
+ &lt;/pre&gt;&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/bizyKVPJTLU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="http://imgur.com/UpAUFjq"&gt;&lt;img src="http://i.imgur.com/UpAUFjq.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/7orElFU"&gt;&lt;img src="http://i.imgur.com/7orElFU.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/l7mBQEPyYYE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;定義: mul這個檔為a和b兩個變數&lt;/p&gt;
+&lt;p&gt;mul.py
+&lt;pre class="brush:python"&gt;
+ 定義: mul這個檔為a和b兩個變數&lt;/p&gt;
 &lt;p&gt;輸出公式為 a*b&lt;/p&gt;
 &lt;p&gt;導入sys&lt;/p&gt;
 &lt;p&gt;指出資料夾路徑&lt;/p&gt;
 &lt;p&gt;輸出mul.pty這個檔&lt;/p&gt;
 &lt;p&gt;把輸出之名命名為multip=add.add(1,2)    &lt;/p&gt;
 &lt;p&gt;第一個為mul.py檔名,第二個為mul名稱&lt;/p&gt;
-&lt;p&gt;輸出之公式ab為1和2&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;輸出之公式ab為1和2
+ &lt;/pre&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
