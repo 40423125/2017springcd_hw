@@ -31,7 +31,98 @@
 &lt;p&gt;把輸出之名命名為multip=add.add(1,2)    &lt;/p&gt;
 &lt;p&gt;第一個為mul.py檔名,第二個為mul名稱&lt;/p&gt;
 &lt;p&gt;輸出之公式ab為1和2
- &lt;/pre&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+ &lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;'''&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# 導入 fourbar 
+import fourbar
+# 準備繪圖畫布
+canvas = doc["fourbar"]
+ctx = canvas.getContext("2d")
+
+
+
+
+
+# First of all, the import of some libraries
+from browser import document as doc
+from browser import html
+
+# All the elements will be inserted in the div with the "container" id
+container = doc['container']
+
+# We create a new div element
+newdiv = html.DIV(id = "new-div")
+# Now we add some style
+newdiv.style = {"padding": "5px", 
+               "backgroundColor": "#ADD8E6"}
+
+# Now, lets add a table with a column with numbers and a
+# column with a word on each cell
+text = "Brython is really cool"
+textlist = text.split()
+table = html.TABLE()
+for i, word in enumerate(textlist):
+    table &lt;= html.TR(html.TD(i + 1) + 
+                     html.TD(word))
+# Now we add some style to the table
+table.style = {"padding": "5px", 
+               "backgroundColor": "#aaaaaa",
+               "width": "100%"}
+# Now we add the table to the new div previously created
+newdiv &lt;= table + html.BR()
+
+# a form? why not?
+form = html.FORM()
+input1 = html.INPUT(type="text", name="firstname", value="First name")
+input2 = html.INPUT(type="text", name="lastname", value="Last name")
+input3 = html.BUTTON("Button with no action!")
+form &lt;= input1 + html.BR() + input2 + html.BR() + input3
+
+newdiv &lt;= form + html.BR()
+
+# Finally, we will add something more 'HTML5istic', a canvas with
+# a color gradient in the newdiv previously created and below the form
+canvas = html.CANVAS(width = 300, height = 300)
+canvas.style = {"width": "100%"}
+ctx = canvas.getContext('2d')
+ctx.rect(0, 0, 300, 300)
+grd = ctx.createRadialGradient(150, 150, 10, 150, 150, 150)
+grd.addColorStop(0, '#8ED6FF')
+grd.addColorStop(1, '#004CB3')
+ctx.fillStyle = grd
+ctx.fill()
+
+newdiv &lt;= canvas
+
+# And finally we append the newdiv element
+# to the parent, in this case the div with the "container" id
+container &lt;= newdiv
+&lt;/script&gt;
+
+&lt;p&gt;'''&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
