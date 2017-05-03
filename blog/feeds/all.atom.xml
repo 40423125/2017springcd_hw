@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423125上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T00:00:00+08:00</updated><entry><title>20170427第十周</title><link href="./wcm10.html" rel="alternate"></link><published>2017-04-27T00:00:00+08:00</published><updated>2017-04-27T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-27:./wcm10.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;add加減乘除&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423125上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-03T00:00:00+08:00</updated><entry><title>20170503第十.周</title><link href="./wcm10.5.html" rel="alternate"></link><published>2017-05-03T00:00:00+08:00</published><updated>2017-05-03T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-05-03:./wcm10.5.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;add加減乘除&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
-&lt;p&gt;&lt;a href="http://imgur.com/0TYamHO"&gt;&lt;img src="http://i.imgur.com/0TYamHO.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/IaDSIO8"&gt;&lt;img src="http://i.imgur.com/IaDSIO8.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;add.py
-&lt;pre class="brush:python"&gt;
- 定義: add這個檔為a和b兩個變數&lt;/p&gt;
-&lt;p&gt;輸出公式為 a+b&lt;/p&gt;
-&lt;p&gt;導入sys&lt;/p&gt;
-&lt;p&gt;指出資料夾路徑&lt;/p&gt;
-&lt;p&gt;輸出add.pty這個檔&lt;/p&gt;
-&lt;p&gt;把輸出之名命名為sum=add.add(1,2)    &lt;/p&gt;
-&lt;p&gt;第一個為add.py檔名,第二個為add名稱&lt;/p&gt;
-&lt;p&gt;輸出之公式ab為1和2
- &lt;/pre&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/bizyKVPJTLU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="http://imgur.com/UpAUFjq"&gt;&lt;img src="http://i.imgur.com/UpAUFjq.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/7orElFU"&gt;&lt;img src="http://i.imgur.com/7orElFU.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/l7mBQEPyYYE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;mul.py
-&lt;pre class="brush:python"&gt;
- 定義: mul這個檔為a和b兩個變數&lt;/p&gt;
-&lt;p&gt;輸出公式為 a*b&lt;/p&gt;
-&lt;p&gt;導入sys&lt;/p&gt;
-&lt;p&gt;指出資料夾路徑&lt;/p&gt;
-&lt;p&gt;輸出mul.pty這個檔&lt;/p&gt;
-&lt;p&gt;把輸出之名命名為multip=add.add(1,2)    &lt;/p&gt;
-&lt;p&gt;第一個為mul.py檔名,第二個為mul名稱&lt;/p&gt;
-&lt;p&gt;輸出之公式ab為1和2
- &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;'''&lt;/p&gt;
+&lt;p&gt;Brython測試&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -50,79 +20,233 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
 
-&lt;canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
 from browser import html
 import math
-# 導入 fourbar 
-import fourbar
-# 準備繪圖畫布
-canvas = doc["fourbar"]
-ctx = canvas.getContext("2d")
-
-
-
-
-
-# First of all, the import of some libraries
-from browser import document as doc
-from browser import html
-
-# All the elements will be inserted in the div with the "container" id
 container = doc['container']
-
-# We create a new div element
-newdiv = html.DIV(id = "new-div")
-# Now we add some style
-newdiv.style = {"padding": "5px", 
-               "backgroundColor": "#ADD8E6"}
-
-# Now, lets add a table with a column with numbers and a
-# column with a word on each cell
-text = "Brython is really cool"
-textlist = text.split()
-table = html.TABLE()
-for i, word in enumerate(textlist):
-    table &lt;= html.TR(html.TD(i + 1) + 
-                     html.TD(word))
-# Now we add some style to the table
-table.style = {"padding": "5px", 
-               "backgroundColor": "#aaaaaa",
-               "width": "100%"}
-# Now we add the table to the new div previously created
-newdiv &lt;= table + html.BR()
-
-# a form? why not?
-form = html.FORM()
-input1 = html.INPUT(type="text", name="firstname", value="First name")
-input2 = html.INPUT(type="text", name="lastname", value="Last name")
-input3 = html.BUTTON("Button with no action!")
-form &lt;= input1 + html.BR() + input2 + html.BR() + input3
-
-newdiv &lt;= form + html.BR()
-
-# Finally, we will add something more 'HTML5istic', a canvas with
-# a color gradient in the newdiv previously created and below the form
-canvas = html.CANVAS(width = 300, height = 300)
-canvas.style = {"width": "100%"}
-ctx = canvas.getContext('2d')
-ctx.rect(0, 0, 300, 300)
-grd = ctx.createRadialGradient(150, 150, 10, 150, 150, 150)
-grd.addColorStop(0, '#8ED6FF')
-grd.addColorStop(1, '#004CB3')
-ctx.fillStyle = grd
-ctx.fill()
-
-newdiv &lt;= canvas
-
-# And finally we append the newdiv element
-# to the parent, in this case the div with the "container" id
-container &lt;= newdiv
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container &lt;= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
-&lt;p&gt;'''&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a 值&lt;/button&gt;&lt;/p&gt;</summary><category term="w10.5"></category></entry><entry><title>20170427第十周</title><link href="./wcm10.html" rel="alternate"></link><published>2017-04-27T00:00:00+08:00</published><updated>2017-04-27T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-27:./wcm10.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;add加減乘除&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://imgur.com/0TYamHO"&gt;&lt;img src="http://i.imgur.com/0TYamHO.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/IaDSIO8"&gt;&lt;img src="http://i.imgur.com/IaDSIO8.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/bizyKVPJTLU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="http://imgur.com/UpAUFjq"&gt;&lt;img src="http://i.imgur.com/UpAUFjq.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/7orElFU"&gt;&lt;img src="http://i.imgur.com/7orElFU.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/l7mBQEPyYYE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;網頁測試加法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;add.py(加法)
+&lt;pre class="brush:python"&gt;
+ 定義: add這個檔為a和b兩個變數&lt;/p&gt;
+&lt;p&gt;輸出公式為 a+b&lt;/p&gt;
+&lt;p&gt;導入sys&lt;/p&gt;
+&lt;p&gt;指出資料夾路徑&lt;/p&gt;
+&lt;p&gt;輸出add.pty這個檔&lt;/p&gt;
+&lt;p&gt;把輸出之名命名為sum=add.add(1,2)    &lt;/p&gt;
+&lt;p&gt;第一個為add.py檔名,第二個為add名稱&lt;/p&gt;
+&lt;p&gt;輸出之公式ab為1和2
+ &lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試乘法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container3" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+degree = math.pi/180
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button3"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;mul.py(乘法)
+&lt;pre class="brush:python"&gt;
+ 定義: mul這個檔為a和b兩個變數&lt;/p&gt;
+&lt;p&gt;輸出公式為 a*b&lt;/p&gt;
+&lt;p&gt;導入sys&lt;/p&gt;
+&lt;p&gt;指出資料夾路徑&lt;/p&gt;
+&lt;p&gt;輸出mul.pty這個檔&lt;/p&gt;
+&lt;p&gt;把輸出之名命名為multip=add.add(1,2)    &lt;/p&gt;
+&lt;p&gt;第一個為mul.py檔名,第二個為mul名稱&lt;/p&gt;
+&lt;p&gt;輸出之公式ab為1和2
+ &lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試除法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container4" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button4"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;division.py(除法)
+&lt;pre class="brush:python"&gt;
+ 定義: div這個檔為a和b兩個變數&lt;/p&gt;
+&lt;p&gt;輸出公式為 a/b&lt;/p&gt;
+&lt;p&gt;導入sys&lt;/p&gt;
+&lt;p&gt;指出資料夾路徑&lt;/p&gt;
+&lt;p&gt;輸出mul.pty這個檔&lt;/p&gt;
+&lt;p&gt;把輸出之名命名為division=add.add(6,2)    &lt;/p&gt;
+&lt;p&gt;第一個為mul.py檔名,第二個為mul名稱&lt;/p&gt;
+&lt;p&gt;輸出之公式ab為6和2
+ &lt;/pre&gt;&lt;/p&gt;
+&lt;h1&gt;網頁測試減法&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container1" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container1']
+degree = math.pi/180
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button2"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;subtraction.py(減法)
+&lt;pre class="brush:python"&gt;
+ 定義: div這個檔為a和b兩個變數&lt;/p&gt;
+&lt;p&gt;輸出公式為 a-b&lt;/p&gt;
+&lt;p&gt;導入sys&lt;/p&gt;
+&lt;p&gt;指出資料夾路徑&lt;/p&gt;
+&lt;p&gt;輸出mul.pty這個檔&lt;/p&gt;
+&lt;p&gt;把輸出之名命名為subtraction=add.add(6,2)    &lt;/p&gt;
+&lt;p&gt;第一個為add.py檔名,第二個為sub名稱&lt;/p&gt;
+&lt;p&gt;輸出之公式ab為6和2
+ &lt;/pre&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
