@@ -246,7 +246,7 @@ doc["button2"].bind("click", button2)
 &lt;p&gt;把輸出之名命名為subtraction=add.add(6,2)    &lt;/p&gt;
 &lt;p&gt;第一個為add.py檔名,第二個為sub名稱&lt;/p&gt;
 &lt;p&gt;輸出之公式ab為6和2
- &lt;/pre&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九周</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+ &lt;/pre&gt;&lt;/p&gt;</summary><category term="w10"></category></entry><entry><title>20170420第九週</title><link href="./wcm9.html" rel="alternate"></link><published>2017-04-20T00:00:00+08:00</published><updated>2017-04-20T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-20:./wcm9.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期中協同查驗與自評&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;1.Fossil Server 實習查驗&lt;/p&gt;
@@ -315,7 +315,7 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="w9"></category></entry><entry><title>20170406第七周</title><link href="./wcm6.html" rel="alternate"></link><published>2017-04-06T00:00:00+08:00</published><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-06:./wcm6.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;四連桿轉入v-rep模擬&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="w9"></category></entry><entry><title>20170406第七週</title><link href="./wcm6.html" rel="alternate"></link><published>2017-04-06T00:00:00+08:00</published><updated>2017-04-06T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-04-06:./wcm6.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;四連桿轉入v-rep模擬&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;p&gt;將連桿分開&lt;/p&gt;
