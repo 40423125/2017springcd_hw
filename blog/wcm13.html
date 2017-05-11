@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>20170503_Brython測試 - 40423125上課報告</title>
+    <title>20170511第十三週 - 40423125上課報告</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,20 +10,20 @@
 
 
 
-<link rel="canonical" href="./wcm10.5.html">
+<link rel="canonical" href="./wcm13.html">
 
         <meta name="author" content="40423125" />
-        <meta name="keywords" content="w10.5" />
-        <meta name="description" content="add加減乘除" />
+        <meta name="keywords" content="w13" />
+        <meta name="description" content="齒輪定義" />
 
         <meta property="og:site_name" content="40423125上課報告" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="20170503_Brython測試"/>
-        <meta property="og:url" content="./wcm10.5.html"/>
-        <meta property="og:description" content="add加減乘除"/>
-        <meta property="article:published_time" content="2017-05-03" />
+        <meta property="og:title" content="20170511第十三週"/>
+        <meta property="og:url" content="./wcm13.html"/>
+        <meta property="og:description" content="齒輪定義"/>
+        <meta property="article:published_time" content="2017-05-11" />
             <meta property="article:section" content="Course" />
-            <meta property="article:tag" content="w10.5" />
+            <meta property="article:tag" content="w13" />
             <meta property="article:author" content="40423125" />
 
 
@@ -131,10 +131,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./wcm10.5.html"
+                    <a href="./wcm13.html"
                        rel="bookmark"
-                       title="Permalink to 20170503_Brython測試">
-                        20170503_Brython測試
+                       title="Permalink to 20170511第十三週">
+                        20170511第十三週
                     </a>
                 </h1>
             </header>
@@ -144,7 +144,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-03T00:00:00+08:00"> 週三 03 五月 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-05-11T00:00:00+08:00"> 週四 11 五月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423125.html"><i class="fa fa-user"></i> 40423125</a>
@@ -152,48 +152,25 @@
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/w105.html">w10.5</a>
+	<a href="./tag/w13.html">w13</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p><b><font color="red">add加減乘除</font></b></p>
+                <p><b><font color="red">齒輪定義</font></b></p>
 
 
-<p>Brython測試</p>
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/Brython-3.3.1/brython.js"></script>
-
-<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container']
-degree = math.pi/180
-def button1(event):
-    a = input("give me a")
-    container <= str(math.cos(60*degree)+float(a))
-doc["button1"].bind("click", button1)
-</script>
-
-<p><button id="button1">按下取 a 值</button></p>
+<p>1.為何需要減速機?</p>
+<p>2.何謂漸開線?</p>
+<p>3.如何畫漸開線正齒輪輪廓?</p>
+<p>4.如何模擬 2D 正齒輪組囓合？</p>
+<p>5.如何模擬 3D 正齒輪組囓合？</p>
+<p>6.如何將齒輪減速機構納入四足行走機構?</p>
+<h1>1.為何需要減速機?</h1>
+<p>齒輪減速機是用來降低轉速、提升扭矩的應用廣泛的驅動機構，工作原理是馬達（驅動器）提供轉速，馬達的轉速很高，但扭矩很小，這時需要一個減速器來降低轉速、提升載荷能力；動力通過齒輪減速機的的齒輪相互轉換原理，把齒數少的小齒輪嚙合在輸出軸上齒數多的的大齒輪來達到降轉速高扭力的目的</p>
+<h1>2.何謂漸開線?</h1>
+<p>一直線在一圓(稱為基圓)外滾動，線上一點所經過的軌跡。</p>
+<p><a href="http://imgur.com/ibtH8KJ"><img src="http://i.imgur.com/ibtH8KJ.gif" title="source: imgur.com" /></a></p>
+<h1>3.如何畫漸開線正齒輪輪廓?</h1>
             </div>
             <!-- /.entry-content -->
         </article>
