@@ -8,7 +8,43 @@
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
-&lt;h1&gt;1.&lt;/h1&gt;</summary><category term="w17"></category></entry><entry><title>W15 練習</title><link href="./wcm15.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-01:./wcm15.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;W15 練習&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h1&gt;1.各組員倉儲中的 Github 檔案推送&lt;/h1&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yMYbo1h0F9g?list=PLCIm9xEWdkUrG2SKv_zXELz0E30vdYfGm" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;2.&lt;/h1&gt;
+&lt;h1&gt;3.各組員倉儲中的子模組建立與運用&lt;/h1&gt;
+&lt;p&gt;先創兩個新倉儲 g100和 ag100&lt;/p&gt;
+&lt;p&gt;一樣設好分支&lt;b&gt;&lt;font color="red"&gt; gh-pages  &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;然後  git clone 下來&lt;/p&gt;
+&lt;p&gt;進入 g100 (cd g100)&lt;/p&gt;
+&lt;p&gt;新增一個分支&lt;b&gt;&lt;font color="red"&gt;git branch gh-pages&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;切換分支 &lt;b&gt;&lt;font color="red"&gt;git checkout gh-pages  &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;git submodule add -b gh-pages  https://github.com/40423125/ag100.git  ag100 &lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/HDSq3df"&gt;&lt;img src="http://i.imgur.com/HDSq3df.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/uyIrtLk"&gt;&lt;img src="http://i.imgur.com/uyIrtLk.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/48SU4x0"&gt;&lt;img src="http://i.imgur.com/48SU4x0.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;程式碼來源 老師網站
+ &lt;a href="http://imgur.com/WMDpZrC"&gt;&lt;img src="http://i.imgur.com/WMDpZrC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;影片&lt;/h1&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oCAQBNpQ_No" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/h1&gt;
+&lt;p&gt;零件圖&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/PaF90lc"&gt;&lt;img src="http://i.imgur.com/PaF90lc.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/89dBFeA"&gt;&lt;img src="http://i.imgur.com/89dBFeA.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/hLtLo1q"&gt;&lt;img src="http://i.imgur.com/hLtLo1q.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/7XOAMSA"&gt;&lt;img src="http://i.imgur.com/7XOAMSA.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/KSrzwGS"&gt;&lt;img src="http://i.imgur.com/KSrzwGS.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/G11g4aD"&gt;&lt;img src="http://i.imgur.com/G11g4aD.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/c9DUbCT"&gt;&lt;img src="http://i.imgur.com/c9DUbCT.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;影片&lt;/h1&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/mTpq5Xul39Q" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/lYFdAwV"&gt;&lt;img src="http://i.imgur.com/lYFdAwV.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;影片&lt;/h1&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yRH7VoJCL78" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色&lt;/h1&gt;
+&lt;p&gt;用v-rep 來模擬四腳獸動作&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/C1EEFuA"&gt;&lt;img src="http://i.imgur.com/C1EEFuA.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="w17"></category></entry><entry><title>W15 練習</title><link href="./wcm15.html" rel="alternate"></link><published>2017-06-01T00:00:00+08:00</published><updated>2017-06-01T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-01:./wcm15.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;W15 練習&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;h1&gt;1.&lt;/h1&gt;
