@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423125上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-21T00:00:00+08:00</updated><entry><title>期末協同查驗與自評</title><link href="./wcm17.html" rel="alternate"></link><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-21:./wcm17.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員倉儲中的 Github 檔案推送&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423125上課報告</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-23T00:00:00+08:00</updated><entry><title>期末分組專題-仿生獸ONSHAPE與VREP完成</title><link href="./wcm19.html" rel="alternate"></link><published>2017-06-23T00:00:00+08:00</published><updated>2017-06-23T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-23:./wcm19.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;行走機構仿生獸定案&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;1.利用ONSHAPE繪製四足行走機構各部位零件&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;2.各組員繪製零件&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;3.用ONSHAPE建立團隊在線上進行協同組裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;4.使用V-REP進行腳部運作模擬&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;5.使用INVENTOE製作行走動畫及各工作圖&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+</summary><category term="w19"></category></entry><entry><title>期末協同查驗與自評</title><link href="./wcm17.html" rel="alternate"></link><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-21:./wcm17.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員倉儲中的 Github 檔案推送&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
@@ -119,15 +125,9 @@ ctx.fill()
 &lt;p&gt;用v-rep 來模擬四腳獸動作&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/C1EEFuA"&gt;&lt;img src="http://i.imgur.com/C1EEFuA.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲&lt;/h1&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Y3bSYslXMLg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="w17"></category></entry><entry><title>期末分組專題</title><link href="./wcm18.html" rel="alternate"></link><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-21:./wcm18.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;行走機構仿生獸&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Y3bSYslXMLg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="w17"></category></entry><entry><title>期末分組專題-仿生獸初部構想</title><link href="./wcm18.html" rel="alternate"></link><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-21:./wcm18.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;行走機構仿生獸初部構想&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
-&lt;h1&gt;成品圖&lt;/h1&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/2eXsVzW"&gt;&lt;img src="http://i.imgur.com/2eXsVzW.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/Osf0vHy"&gt;&lt;img src="http://i.imgur.com/Osf0vHy.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/NYflw7x"&gt;&lt;img src="http://i.imgur.com/NYflw7x.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/1stIl9e"&gt;&lt;img src="http://i.imgur.com/1stIl9e.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/vLxGzM7"&gt;&lt;img src="http://i.imgur.com/vLxGzM7.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;設計圖(基板)&lt;/h1&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/sXjaDsD"&gt;&lt;img src="http://i.imgur.com/sXjaDsD.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/ievh7SW"&gt;&lt;img src="http://i.imgur.com/ievh7SW.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
