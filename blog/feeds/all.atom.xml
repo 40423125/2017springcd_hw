@@ -5,8 +5,55 @@
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;3.用ONSHAPE建立團隊在線上進行協同組裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;4.使用V-REP進行腳部運作模擬&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;5.使用INVENTOE製作行走動畫&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;6.零件共享及STL下載&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;6.Arduino程式碼&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;7.零件共享及STL下載&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
+
+&lt;h1&gt;工作分配&lt;/h1&gt;
+&lt;table border=1&gt;
+&lt;td colspan=8 align=center&gt;工作分配&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423106&lt;/td&gt;
+&lt;td&gt;繪製零件圖檔&lt;/td&gt;
+&lt;td&gt;onshape組裝&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423107&lt;/td&gt;
+&lt;td&gt;繪製零件圖檔&lt;/td&gt;
+&lt;td&gt;onshape組裝&lt;/td&gt;
+&lt;td&gt;實體組裝&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423108&lt;/td&gt;
+&lt;td&gt;繪製零件圖檔&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423121&lt;/td&gt;
+&lt;td&gt;onshape組裝&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423125&lt;/td&gt;
+&lt;td&gt;繪製零件圖檔&lt;/td&gt;
+&lt;td&gt;onshape組裝&lt;/td&gt;
+&lt;td&gt;VREPA模擬&lt;/td&gt;
+&lt;td&gt;arduino程式撰寫&lt;/td&gt;
+&lt;td&gt;實體組裝&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423139&lt;/td&gt;
+&lt;td&gt;初部設計構想&lt;/td&gt;
+&lt;td&gt;繪製零件圖檔&lt;/td&gt;
+&lt;td&gt;onshape組裝&lt;/td&gt;
+&lt;td&gt;動畫製作&lt;/td&gt;
+&lt;td&gt;實體組裝&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;40423140&lt;/td&gt;
+&lt;td&gt;繪製零件圖檔&lt;/td&gt;
+&lt;td&gt;onshape組裝&lt;/td&gt;
+&lt;td&gt;實體組裝&lt;/td&gt;
+&lt;td&gt;意見討論&lt;/td&gt;
+&lt;/table&gt;
 
 &lt;h1&gt;仿身獸實際做動記錄&lt;/h1&gt;
 &lt;p&gt;&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/HHTGFkHlRh8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
@@ -107,7 +154,9 @@
 
 &lt;p&gt;&lt;a href="https://vimeo.com/221532208"&gt;2017-06-14_12-47-26&lt;/a&gt; from &lt;a href="https://vimeo.com/user57418042"&gt;曾繼緯&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1&gt;6.零件共享&lt;/h1&gt;
+&lt;h1&gt;6.Arduino程式碼&lt;/h1&gt;
+&lt;p&gt;&lt;script src="https://gist.github.com/40423125/a6af70bec7fcd57780c4c6c779ea50f1.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h1&gt;7.零件共享&lt;/h1&gt;
 &lt;p&gt;&lt;a href="./../part/上腳.stl"&gt;上腳stl&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/b76424229f90a58678fa00d3/w/380296b0f720cc9af691008c/e/7e9133227316ee6d74b27ee9"&gt;ONSHAPE上腳共享連結&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="./../part/底腳.stl"&gt;底腳stl&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/272c4afe05c1f16bf94f9afe/w/3114a56066c1d53cbbf1f4f9/e/c98cebda9ec134089dc1482d"&gt;ONSHAPE底腳共享連結&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="./../part/3.stl"&gt;零件3stl&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/27884db254ecdda87b53785a/w/438566914f94ced3e6260cbb/e/e6d0c3c201e323ea9bb73169"&gt;ONSHAPE零件3共享連結&lt;/a&gt;&lt;/p&gt;
@@ -121,7 +170,8 @@
 &lt;p&gt;&lt;a href="./../part/軸170.stl"&gt;軸170&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/0a790acfdd97ff76b9b5dab0/w/cee9fa819148f78695f2635c/e/5dc2909a6350e32bcfcb7743"&gt;ONSHAPE軸170共享連結&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="./../part/軸250.stl"&gt;軸250&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/28a51de4b0bcdabc3b1bf281/w/6509443aabf344c701608250/e/c15285ff22556909d8dede45"&gt;ONSHAPE軸250共享連結&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="./../part/本體1.stl"&gt;本體1&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/16b86eae79a047bfa8b602f5/w/f7fc345113d6cb553dceeb55/e/3c8c9c2c723c522deb0183b5"&gt;ONSHAPE本體1共享連結&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="./../part/本體2.stl"&gt;本體2&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/46dbe40a35ad704c15237ff7/w/5d3797c359d1b1fc152a4310/e/6eee2a54d32363143d91878f"&gt;ONSHAPE本體2共享連結&lt;/a&gt;&lt;/p&gt;</summary><category term="w19"></category></entry><entry><title>期末協同查驗與自評</title><link href="./wcm17.html" rel="alternate"></link><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-21:./wcm17.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員倉儲中的 Github 檔案推送&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../part/本體2.stl"&gt;本體2&lt;/a&gt; 或&lt;a href="https://cad.onshape.com/documents/46dbe40a35ad704c15237ff7/w/5d3797c359d1b1fc152a4310/e/6eee2a54d32363143d91878f"&gt;ONSHAPE本體2共享連結&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../final/final.ttt"&gt;VREP檔&lt;/a&gt;&lt;/p&gt;</summary><category term="w19"></category></entry><entry><title>期末協同查驗與自評</title><link href="./wcm17.html" rel="alternate"></link><published>2017-06-21T00:00:00+08:00</published><updated>2017-06-21T00:00:00+08:00</updated><author><name>40423125</name></author><id>tag:,2017-06-21:./wcm17.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員倉儲中的 Github 檔案推送&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
